@@ -19,3 +19,7 @@ Requirements to run:
 * Use the ServiceList API to get all enabled services (note these are in DNS style names not an easy enum value and I can't seem to find a list of possiblities)
 * Look up the Billing Information for the project to see if billing is enabled. (Note: Billing does not need to be enabled for Read API calls, but does need to be enabled for write API calls)
 * Once all this metadata is present an application should be able to iterate all projects in an org looking for projects that use a particular service and then issue calls as needed.
+
+## Open problems
+* BigQuery API can be enabled when BigQuery itself is disabled.  The service API will display BigQuery is enabled, but queries will fail when the API is queried.
+https://enterprise.google.com/supportcenter/managecases#Case/0016000000sFY8w/U-18715624
