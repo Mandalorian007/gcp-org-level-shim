@@ -35,10 +35,8 @@ public class TestMain {
 
         if (project.isBillingEnabled()) {
           //Since Billing is enabled it is also safe to make write operations.
-          bigquery.create(DatasetInfo.newBuilder("temp-54321")
-              .setLocation("EU")
-              .build());
-          bigquery.delete("temp-54321");
+
+          //write operations excluded in this example
         }
       }
     });
