@@ -2,7 +2,6 @@ package com.spotify.example;
 
 import com.google.cloud.bigquery.BigQuery;
 import com.google.cloud.bigquery.BigQueryOptions;
-import com.google.cloud.bigquery.DatasetInfo;
 import com.spotify.shim.OrgShim;
 import com.spotify.shim.OrgShimImpl;
 import com.spotify.shim.Project;
