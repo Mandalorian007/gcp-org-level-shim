@@ -8,6 +8,10 @@ import com.spotify.shim.OrgShimImpl;
 import com.spotify.shim.Project;
 import java.util.List;
 
+/*
+  This example is to demonstrate that I can safely make API calls across all GCP projects
+  in an org with any exceptions due to api state and billing configurations.
+ */
 public class TestMain {
 
   public static void main(String[] args) throws Exception {
